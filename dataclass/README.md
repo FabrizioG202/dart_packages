@@ -4,6 +4,18 @@ An alternative take on dataclass generation and management in Dart. The main rea
 
 The general syntax is inspired by rust's `derive` syntax, which I find particularly clean and nice to work with.
 
+## Installation
+
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  dataclass:
+    git:
+      url: https://github.com/FabrizioG202/dart_packages
+      path: dataclass
+```
+
 ## Features
 
 - `copyWith` generation. This is the main feature of this package, and it allows you to create a new instance of a class with some fields updated. The generated `copyWith` method takes a **function** for each field, which allows you to update the field to `null` if needed.
