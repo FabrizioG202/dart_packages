@@ -1,0 +1,19 @@
+name: dataclass
+description: An alternative take on dataclass generation and management in dart.
+version: 0.0.5
+publish_to: none
+
+environment:
+  sdk: ^3.11.0-93.1.beta
+
+# Add regular dependencies here.
+dependencies:
+  collection:
+  source_gen:
+  build:
+  analyzer:
+
+dev_dependencies:
+  lints:
+  test:
+  very_good_analysis: ^11.0.0
