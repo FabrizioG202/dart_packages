@@ -1,0 +1,24 @@
+# functional_shorthands
+
+Small Dart helpers for null handling, collections, and functional-style transformations.
+
+## Installation
+
+```yaml
+dependencies:
+  functional_shorthands:
+    git:
+      url: https://github.com/FabrizioG202/dart_packages
+      path: functional_shorthands
+```
+
+## Usage
+
+```dart
+import 'package:functional_shorthands/functional_shorthands.dart';
+
+String greet(String? name) => name.or('world').let((n) => 'Hello, $n!');
+
+final byLength = ['one', 'four'].toMapBy((s) => s.length);
+final updated = withValue(42)(0); // 42
+```
