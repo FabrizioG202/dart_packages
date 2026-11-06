@@ -1,6 +1,6 @@
 name: dataclass
 description: An alternative take on dataclass generation and management in dart.
-version: 0.0.5
+version: 0.0.6
 publish_to: none
 
 environment:

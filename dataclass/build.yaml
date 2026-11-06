@@ -1,6 +1,6 @@
 builders:
   dataclass_builder:
-    import: "package:dataclass/src/dataclass_base.dart"
+    import: "package:dataclass/src/dataclass.dart"
     builder_factories: ["dataclassBuilder"]
     build_extensions: { ".dart": [".g.part"] }
     auto_apply: dependents
