@@ -88,3 +88,8 @@ extension WidgetListExt<I extends Iterable<Widget>> on I {
     children: toList(),
   );
 }
+
+extension NumSizedBoxExt<T extends num> on T {
+  SizedBox get v => SizedBox(height: toDouble());
+  SizedBox get h => SizedBox(width: toDouble());
+}
