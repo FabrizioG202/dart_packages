@@ -1,0 +1,26 @@
+# trailing_widgets
+
+Small Flutter extensions for padding, expanded widgets, and row/column layouts.
+
+## Installation
+
+```yaml
+dependencies:
+  trailing_widgets:
+    git:
+      url: https://github.com/FabrizioG202/dart_packages
+      path: trailing_widgets
+```
+
+## Usage
+
+```dart
+import 'package:flutter/widgets.dart';
+import 'package:trailing_widgets/trailing_widgets.dart';
+
+final padded = const Text('Hello').padAll(16);
+final layout = [
+  const Text('First').expanded(),
+  const Text('Second'),
+].row(spacing: 8);
+```
